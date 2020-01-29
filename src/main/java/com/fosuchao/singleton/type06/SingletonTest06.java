@@ -1,7 +1,7 @@
 package com.fosuchao.singleton.type06;
 
 /**
- * @Description: 双重检查
+ * @Description: 双重检查 Double-Check
  * 提供一个静态的公有方法，加入双重检查，解决线程安全问题，同时解决懒加载问题
  * 同时保证了效率， 推荐使用
  * 加volatile的原因：
