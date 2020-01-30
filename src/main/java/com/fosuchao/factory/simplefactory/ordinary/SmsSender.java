@@ -1,4 +1,4 @@
-package com.fosuchao.factory.easy.ordinary;
+package com.fosuchao.factory.simplefactory.ordinary;
 
 /**
  * @Description:

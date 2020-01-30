@@ -1,6 +1,4 @@
-package com.fosuchao.factory.easy.method;
-
-import com.fosuchao.factory.easy.ordinary.Sender;
+package com.fosuchao.factory.simplefactory.ordinary;
 
 /**
  * @Description:

@@ -1,6 +1,6 @@
-package com.fosuchao.factory.easy.staticmethod;
+package com.fosuchao.factory.simplefactory.staticmethod;
 
-import com.fosuchao.factory.easy.ordinary.Sender;
+import com.fosuchao.factory.simplefactory.ordinary.Sender;
 
 /**
  * @Description:

@@ -1,4 +1,4 @@
-package com.fosuchao.factory.easy.staticmethod;
+package com.fosuchao.factory.simplefactory.staticmethod;
 
 /**
  * @Description: 简单工厂（静态方法形式），使用静态方法直接调用

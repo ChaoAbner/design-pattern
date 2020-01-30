@@ -1,4 +1,4 @@
-package com.fosuchao.factory.easy.method;
+package com.fosuchao.factory.simplefactory.method;
 
 /**
  * @Description: 简单工厂（方法形式），
