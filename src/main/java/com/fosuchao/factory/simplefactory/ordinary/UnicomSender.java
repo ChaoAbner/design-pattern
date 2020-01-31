@@ -5,9 +5,9 @@ package com.fosuchao.factory.simplefactory.ordinary;
  * @Auther: Joker Ye
  * @Date: 2020/1/30 19:38
  */
-public class MailSender implements Sender {
+public class UnicomSender implements Sender {
 
-    public void send() {
-        System.out.println("send mail message");
+    public void mail() {
+        System.out.println("Unicom send mail message");
     }
 }

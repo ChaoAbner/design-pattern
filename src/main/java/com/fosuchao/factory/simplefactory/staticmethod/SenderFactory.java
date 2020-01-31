@@ -1,6 +1,7 @@
 package com.fosuchao.factory.simplefactory.staticmethod;
 
 import com.fosuchao.factory.simplefactory.ordinary.Sender;
+import com.fosuchao.factory.simplefactory.ordinary.TelecomSender;
 
 /**
  * @Description:
@@ -9,11 +10,11 @@ import com.fosuchao.factory.simplefactory.ordinary.Sender;
  */
 public class SenderFactory {
 
-   public static Sender produceMail(){
-       return new MailSender();
+   public static Sender unicom(){
+       return new UnicomSender();
    }
 
-    public static Sender produceSms(){
-        return new SmsSender();
+    public static Sender telecom(){
+        return new TelecomSender();
     }
 }

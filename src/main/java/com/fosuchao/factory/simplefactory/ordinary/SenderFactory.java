@@ -8,10 +8,10 @@ package com.fosuchao.factory.simplefactory.ordinary;
 public class SenderFactory {
 
     public Sender produce(String type){
-        if("mail".equals(type)){
-            return new MailSender();
-        } else if ("sms".equals(type)){
-            return new SmsSender();
+        if("telecom".equals(type)){
+            return new TelecomSender();
+        } else if ("unicom".equals(type)){
+            return new UnicomSender();
         } else {
             System.out.println("类型不存在");
             return null;

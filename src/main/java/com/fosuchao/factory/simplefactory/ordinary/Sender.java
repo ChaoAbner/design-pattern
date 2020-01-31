@@ -6,5 +6,5 @@ package com.fosuchao.factory.simplefactory.ordinary;
  * @Date: 2020/1/30 19:37
  */
 public interface Sender {
-    void send();
+    void mail();
 }

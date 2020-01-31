@@ -7,11 +7,13 @@ package com.fosuchao.factory.factorymethod;
  */
 public class Client {
     public static void main(String[] args) {
-        SmsFactory smsFactory = new SmsFactory();
-        MailFactory mailFactory = new MailFactory();
+        AbsFactory unicomFactory = new UnicomFactory();
+        AbsFactory telecomFactory = new TelecomFactory();
 
-        smsFactory.produce().send();
-        mailFactory.produce().send();
+        Sender unicomMail = unicomFactory.createMail();
+        Sender telecomMail = telecomFactory.createMail();
 
+        unicomMail.mail();
+        telecomMail.mail();
     }
 }

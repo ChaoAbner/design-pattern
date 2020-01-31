@@ -1,7 +1,5 @@
 package com.fosuchao.factory.simplefactory.method;
 
-import com.fosuchao.factory.simplefactory.ordinary.Sender;
-
 /**
  * @Description:
  * @Auther: Joker Ye
@@ -9,11 +7,11 @@ import com.fosuchao.factory.simplefactory.ordinary.Sender;
  */
 public class SenderFactory {
 
-   public Sender produceMail(){
-       return new MailSender();
+   public Sender telecom(){
+       return new TelecomSender();
    }
 
-    public Sender produceSms(){
-        return new SmsSender();
+    public Sender unicom(){
+        return new UnicomSender();
     }
 }

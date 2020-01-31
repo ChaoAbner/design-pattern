@@ -8,7 +8,10 @@ package com.fosuchao.factory.simplefactory.method;
 public class Client {
     public static void main(String[] args) {
         SenderFactory senderFactory = new SenderFactory();
-        senderFactory.produceMail().send();
-        senderFactory.produceSms().send();
+        Sender telecom = senderFactory.telecom();
+        Sender unicom = senderFactory.unicom();
+
+        telecom.mail();
+        unicom.mail();
     }
 }
