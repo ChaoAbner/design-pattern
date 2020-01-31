@@ -18,3 +18,7 @@ Animal2 - color2 -> color2  someObject2 -> someObject2
 浅拷贝：
 Animal1 - color1 -> color1  someObject1 -> someObject
 Animal2 - color2 -> color2  someObject2 -> someObject
+
+当创建一个新对象比较复杂时，可以使用原型模式简化对对象的创建过程
+不用重新初始化对象，而是动态的获取对象运行时的状态。
+序列化实现深拷贝，虽然效率较低，不过推荐使用。
