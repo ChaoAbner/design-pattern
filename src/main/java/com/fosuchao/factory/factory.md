@@ -9,7 +9,7 @@
    - 多方法
    - 多个静态方法
  - 工厂方法模式
- - 抽象工厂模式
+ - 抽象工厂模式(参考https://www.cnblogs.com/java-my-life/archive/2012/03/28/2418836.html)
 
 
 
