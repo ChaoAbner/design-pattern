@@ -16,6 +16,7 @@ public class Client {
         controller.setCommand(0, lightOnCommand, lightOffCommand);
         controller.pushOnButton(0);
         controller.pushOffButton(0);
+        controller.pushUndoButton();
         controller.pushOffButton(1);
         // 继续添加命令。。。
     }

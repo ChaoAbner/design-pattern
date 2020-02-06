@@ -8,6 +8,7 @@ import javax.sound.midi.Soundbank;
  * @Date: 2020/2/6 17:07
  */
 public class Controller {
+    private Command undoCommand = new UndoCommand();
     private Command [] onCommands;
     private Command [] offCommands;
     private int commandNum;
@@ -43,6 +44,10 @@ public class Controller {
         }
 
         this.offCommands[index].execute();
+    }
+
+    public void pushUndoButton() {
+        undoCommand.execute();
     }
 
     private boolean validCommand(int index) {
