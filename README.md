@@ -1,4 +1,5 @@
 # 设计模式
+[代码示例](https://github.com/ChaoAbner/design-pattern/tree/master/src/main/java/com/fosuchao)
 ## 一、设计模式的分类
 
 总体来说设计模式分为三大类：
