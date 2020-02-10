@@ -1,17 +1,19 @@
 package com.fosuchao.memento;
 
 /**
- * @Description:
+ * @Description: 客户端
  * @Auther: Joker Ye
  * @Date: 2020/2/9 23:37
  */
 public class Client {
     public static void main(String[] args) {
         CareTaker careTaker = new CareTaker();
-        Memento m1 = new Memento("副本1通过");
-        Memento m2 = new Memento("打副本2的boss");
-        Memento m3 = new Memento("副本2通过");
         Originator player = new Originator();
+        player.setState("副本一通过");
         careTaker.add(player.saveStateToMemento());
+        player.setState("打副本二boss");
+        careTaker.add(player.saveStateToMemento());
+        player.getStateFromMemento(careTaker.get(1));
+        System.out.println(player.getState());
     }
 }
